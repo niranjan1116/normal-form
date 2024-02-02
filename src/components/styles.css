@@ -1,0 +1,118 @@
+/* components/styles.css */
+
+/* Global styles for all components */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Personal component styles */
+  .personal-container {
+    background-color: #f9f9f9;
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .personal-container div {
+    margin: 10px 0;
+  }
+  
+  .personal-container label {
+    margin-right: 10px; /* Add margin to the right of labels */
+  }
+  
+  /* Address component styles */
+  .address-container {
+    background-color: #f2f2f2;
+    border: 2px solid #e74c3c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .address-container div {
+    margin: 10px 0;
+  }
+  
+  .address-container label {
+    margin-right: 10px; /* Add margin to the right of labels */
+  }
+  
+  /* Payment component styles */
+  .payment-container {
+    background-color: #ecf0f1;
+    border: 2px solid #2ecc71;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .payment-container div {
+    margin: 10px 0;
+  }
+  
+  .payment-container label {
+    margin-right: 10px; /* Add margin to the right of labels */
+  }
+  
+  /* Result component styles */
+  .result-container {
+    background-color: #e0e0e0;
+    border: 2px solid #f39c12;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .result-container div {
+    margin: 10px 0;
+  }
+  
+  .result-container label {
+    margin-right: 10px; /* Add margin to the right of labels */
+  }
+  
+  /* Button styles */
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Add space between buttons */
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin to the right of buttons */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
